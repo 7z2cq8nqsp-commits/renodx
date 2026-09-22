@@ -16,4 +16,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: renodx-battlefield4
-          path: build/**/*.addon64
+          path: build.vs/**/*.addon64
+          if-no-files-found: error
